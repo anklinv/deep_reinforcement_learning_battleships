@@ -46,7 +46,7 @@ To plot all the timesteps
 python policy_gradient_agent.py --plot
 ```
 
-To keep the size of the repository small, there is only the recorded best model in the repository. The model saved every 1000 timesteps can be found [here]().
+To keep the size of the repository small, there is only the recorded best model in the repository. The model saved every 1000 timesteps can be found [here](https://polybox.ethz.ch/index.php/s/dNYGdGqlXXl0Xni/download).
 
 ## Folder structure
 - _animations_: contains all animation of games performed using the best model

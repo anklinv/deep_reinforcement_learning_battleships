@@ -1,13 +1,13 @@
 # Playing Battleships with Deep Reinforcement Learning
-Solving the classical board game [battleships](https://en.wikipedia.org/wiki/Battleship_(game) using a deep reinforcement agent. The goal is to minimize the number of steps to complete the game.
+Solving the classical board game [battleships](https://en.wikipedia.org/wiki/Battleship_(game)) using a deep reinforcement agent. The goal is to minimize the number of steps to complete the game.
 
 ## Results
 The best agent manages to achieve a mean game length of 61. Training took around 50 hours on a CPU, where the agent played a total of 3.3 million games.
-![plot]()
+![plot](https://github.com/anklinv/deep_reinforcement_learning_battleships/blob/master/plots/mean_with_25_and_75_percentiles.svg)
 
 Below you can see an animation of the agent performing the task as well as the action probabilities.
 
-![animation]()
+![animation](https://github.com/anklinv/deep_reinforcement_learning_battleships/blob/master/animations/battleships_61.gif)
 
 Other attempts include DQN which did not learn anything. I suspect that the reason for this is the highly stochastic nature of the game prohibits the agent to learn a good Q function.
 

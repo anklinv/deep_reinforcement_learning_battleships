@@ -3,6 +3,7 @@ Solving the classical board game [battleships](https://en.wikipedia.org/wiki/Bat
 
 ## Results
 The best agent manages to achieve a mean game length of 61. Training took around 50 hours on a CPU, where the agent played a total of 3.3 million games.
+
 ![plot](https://github.com/anklinv/deep_reinforcement_learning_battleships/blob/master/plots/mean_with_25_and_75_percentiles.svg)
 
 Below you can see an animation of the agent performing the task as well as the action probabilities.

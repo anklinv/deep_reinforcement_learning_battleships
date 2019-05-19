@@ -25,7 +25,7 @@ pip install -e .
 pip install -e ./coding_challenge/
 ```
 
-## Training
+## Usage
 To load the best model and save an animation of a game
 ```Bash
 python policy_gradient_agent.py
@@ -46,10 +46,12 @@ To plot all the timesteps
 python policy_gradient_agent.py --plot
 ```
 
+To keep the size of the repository small, there is only the recorded best model in the repository. The model saved every 1000 timesteps can be found [here]().
+
 ## Folder structure
-- __animations__: contains all animation of games performed using the best model
-- __coding_challenge__: contains the game environment
-- __data__: contains a matrix with all game lengths during the experiment
-- __dqn_agent__: failed attempt of using DQN to learn the game
-- __models__: contains saved models
-- __plots__: contains all plots
+- _animations_: contains all animation of games performed using the best model
+- _coding_challenge_: contains the game environment
+- _data_: contains a matrix with all game lengths during the experiment
+- _dqn_agent_: failed attempt of using DQN to learn the game
+- _models_: contains saved models
+- _plots_: contains all plots
